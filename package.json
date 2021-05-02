@@ -1,6 +1,9 @@
 {
   "name": "ts-guard-match",
   "version": "0.0.1",
+  "description": "Dead-simple matcher library, relying on TypeScript type guards",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Eranikid/ts-guard-match.git"
@@ -8,5 +11,25 @@
   "bugs": {
     "url": "https://github.com/Eranikid/ts-guard-match/issues"
   },
-  "homepage": "https://github.com/Eranikid/ts-guard-match#readme"
+  "homepage": "https://github.com/Eranikid/ts-guard-match#readme",
+  "keywords": ["pattern", "matching", "pattern-matching", "typescript"],
+  "author": {
+    "name": "Pavlushin Dmitry",
+    "email": "pavlushindmitry@gmail.com"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "test": "jest --config jest.config.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  }
 }
