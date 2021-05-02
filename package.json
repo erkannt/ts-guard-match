@@ -1,6 +1,6 @@
 {
   "name": "ts-guard-match",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Dead-simple matcher library, relying on TypeScript type guards",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
