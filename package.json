@@ -1,6 +1,6 @@
 {
   "name": "ts-guard-match",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dead-simple matcher library, relying on TypeScript type guards",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -12,7 +12,12 @@
     "url": "https://github.com/Eranikid/ts-guard-match/issues"
   },
   "homepage": "https://github.com/Eranikid/ts-guard-match#readme",
-  "keywords": ["pattern", "matching", "pattern-matching", "typescript"],
+  "keywords": [
+    "pattern",
+    "matching",
+    "pattern-matching",
+    "typescript"
+  ],
   "author": {
     "name": "Pavlushin Dmitry",
     "email": "pavlushindmitry@gmail.com"
