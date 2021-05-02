@@ -1,0 +1,12 @@
+{
+  "name": "ts-guard-match",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eranikid/ts-guard-match.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Eranikid/ts-guard-match/issues"
+  },
+  "homepage": "https://github.com/Eranikid/ts-guard-match#readme"
+}
