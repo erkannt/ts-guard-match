@@ -31,4 +31,13 @@ describe("match", () => {
 
     type _ = Expect<Not<Equal<typeof matcher, BuiltMatch<string>>>>;
   });
+
+  it.skip("using `otherwise` allows `run` in cases where `when`s are not exhaustive", () => {
+    const matcher = match(3 as number | string)
+      .when( isString, (_) => "it is string")
+      .otherwise(() => 'no case matched, resulting to default')
+
+    type _ = Expect<Equal<typeof matcher, BuiltMatch<string>>>;
+    expect(matcher.run()).toBe('no case matched, resulting to default')
+  })
 });
